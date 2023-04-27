@@ -1,4 +1,4 @@
-<h1 align="center">RESTFUL Blog Service</h3>
+<h1 align="center">GraphQL Service</h3>
 
 <div align="center">
 
@@ -24,7 +24,7 @@
 ## 🧐 About <a name = "about"></a>
 Aimed to create A 'GraphQL' service built with Node.js
 
-Schema:
+## 🦠 Schema
 ```
 -> Root Query
     -login(email: String!, password: String!): AuthData!
@@ -40,19 +40,17 @@ Schema:
     -updateStatus(status: String!): User!
 
 -> DBMS
-    - Posts
-        Post
-            creator
-            title
-            createdAt
-            updatedAt
-    - Users
-        User
-            email
-            password
-            name
-            status
-            posts
+    Posts
+        creator
+        title
+        createdAt
+        updatedAt
+    Users
+        email
+        password
+        name
+        status
+        posts
 ```
 
 ## 🎈 Usage <a name = "usage"></a>

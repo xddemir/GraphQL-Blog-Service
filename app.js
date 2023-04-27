@@ -96,7 +96,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://demirdogukan:demirdogukan@cluster0.jirq26m.mongodb.net/messages"
+    "connectionstring"
   )
   .then((result) => {
     app.listen(8080);
